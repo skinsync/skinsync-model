@@ -17,18 +17,16 @@ This dataset contains images of faces with different skin types, such as:
 - Acne 😓
 
 Kaggle Dataset = https://www.kaggle.com/datasets/muttaqin1113/face-skin-type
+# Data Distribution
+The graphs below illustrate the distribution of various skin types within our dataset. This visualization helps us to ensure that our dataset is balanced and provides insights into the prevalence of each skin type, which is essential for training robust machine learning models. A balanced dataset allows the model to learn equally from each category, thereby enhancing its ability to generalize well to unseen data. The following bar graph and pie chart showcase the detailed breakdown of the dataset used in our skin type classification project.
+
+![bar graph](https://cdn.discordapp.com/attachments/1200427587940392991/1253651700594511944/rABdpn0AAACRixQAAEAkpAAAACIhBQAAEAkpAACASEgBAABEQgoAACASUgAAAJGQAgAAiD4ymU8DB3Rt5wAAAABJRU5ErkJggg.png?ex=6676a1a1&is=66755021&hm=78cee51f725fb871631e294d25271993dad5f2d01baed89b600e33b51ee76622&) ![pie chart](https://cdn.discordapp.com/attachments/1200427587940392991/1253651667975405580/w8elyhbdNOfYgAAAABJRU5ErkJggg.png?ex=6676a199&is=66755019&hm=51edae12b36970ed29c4b6e1b84a25fb6bbebba88b40422b1fa15dd3abe8d5d5&)
+
 
 ### Skincare Recommendation
 This dataset includes information on various skincare products and their suitability for different skin types and conditions.
 
 Github = https://github.com/Yunanouv/Skin-Care-Recommender-System/blob/main/MP-Skin%20Care%20Product%20Recommendation%20System3.csv
-
-
-### Data Distribution
-<div style="display: flex; justify-content: space-around;">
-  <img src="https://cdn.discordapp.com/attachments/1200427587940392991/1253651700594511944/rABdpn0AAACRixQAAEAkpAAAACIhBQAAEAkpAACASEgBAABEQgoAACASUgAAAJGQAgAAiD4ymU8DB3Rt5wAAAABJRU5ErkJggg.png?ex=6676a1a1&is=66755021&hm=78cee51f725fb871631e294d25271993dad5f2d01baed89b600e33b51ee76622&" alt="bar graph" width="45%">
-  <img src="https://cdn.discordapp.com/attachments/1200427587940392991/1253651667975405580/w8elyhbdNOfYgAAAABJRU5ErkJggg.png?ex=6676a199&is=66755019&hm=51edae12b36970ed29c4b6e1b84a25fb6bbebba88b40422b1fa15dd3abe8d5d5&" alt="Experimental Design" width="45%">
-</div>
 
 
 ## 2. Methods
