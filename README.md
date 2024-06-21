@@ -26,6 +26,9 @@ Github = https://github.com/Yunanouv/Skin-Care-Recommender-System/blob/main/MP-S
 ## 2. Methods
 We employed a Convolutional Neural Network (CNN) model to classify skin types and provide skincare recommendations based on the classification results. The methodology includes data preprocessing, model training, and evaluation.
 
+## 4. Experimental Design
+![Experimental Design](https://i.sstatic.net/osBuF.png)
+
 
 ## 3. Model Architecture
 A Convolutional Neural Network (CNN) model is used to classify the dataset categories. The model architecture can be customized based on requirements, but for this project, the following architecture is used:
