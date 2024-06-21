@@ -1,1 +1,81 @@
-# skinsync_model
+# skinsync_model-Skin Tyoe Classification
+## Team ID: C241-PS124
+
+### ML Team Members:
+- (ML) M335D4KY2083 – Gybran Khairul Anam – Universitas Yarsi - [Active]
+- (ML) M332D4KX1670 – Cheryl Almirah Azmi – Universitas Trunojoyo - [Active]
+- (ML) M204D4KY2509 – Naufal Hafizh Muttaqin – Universitas Esa Unggul - [Active]
+
+## 1. Dataset
+The dataset used consists of images of different skin types and facial skin problems. The dataset is divided into two main categories: "Skin Type Classification" and "Skincare Recommendation."
+
+### Skin Type Classification
+This dataset contains images of faces with different skin types, such as:
+- Normal
+- Oily
+- Dry
+- acne
+
+Kaggle Dataset = https://www.kaggle.com/datasets/muttaqin1113/face-skin-type
+
+### Skincare Recommendation
+This dataset includes information on various skincare products and their suitability for different skin types and conditions.
+
+Github = https://github.com/Yunanouv/Skin-Care-Recommender-System/blob/main/MP-Skin%20Care%20Product%20Recommendation%20System3.csv
+
+## 2. Research Method
+We employed a Convolutional Neural Network (CNN) model to classify skin types and provide skincare recommendations based on the classification results. The methodology includes data preprocessing, model training, and evaluation.
+
+
+## 3. Model Architecture
+A Convolutional Neural Network (CNN) model is used to classify the dataset categories. The model architecture can be customized based on requirements, but for this project, the following architecture is used:
+- **Input Layer**
+- **Convolutional Layers**: Used for feature extraction from the images.
+- **Max Pooling Layers**: Used for dimensionality reduction of the features.
+- **Flatten Layer**: Flattens the features into a vector.
+- **Fully Connected Layers**: Perform classification tasks.
+- **Output Layer**: Outputs the classification predictions based on labels.
+
+## 4. Results
+The model was evaluated using a testing generator, resulting in the following accuracy and loss metrics:
+
+| Metric       | Value   |
+|--------------|---------|
+| Test Loss    | 0.3207  |
+| Test Accuracy| 0.9034  |
+
+## 5. Requirements
+- **Python 
+- **Keras** 
+- **TensorFlow** 
+- **NumPy** 
+- **Matplotlib** 
+- **sckit-learn**
+
+## 7. References
+1. Convolutional Neural Networks (CNNs) - Stanford University, https://cs231n.github.io/convolutional-networks/
+3. Dataset:
+   - https://www.kaggle.com/datasets/muttaqin1113/face-skin-type
+   - https://github.com/Yunanouv/Skin-Care-Recommender-System/blob/main/MP-Skin%20Care%20Product%20Recommendation%20System3.csv
+4. Paper for Pretrained Model:
+   - Howard, A. G. (2017, April 17). MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications. arXiv.org. https://arxiv.org/abs/1704.04861
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
