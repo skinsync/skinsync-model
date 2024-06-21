@@ -35,6 +35,9 @@ We employed a Convolutional Neural Network (CNN) model to classify skin types an
 
 
 ## 4. Experimental Design
+The training set is used to train the model, while the test set is used to evaluate the model's final performance.
+Next, the training set is further divided into a training set and a validation set. 
+The model is then fine-tuned using the validation set. This process repeats until the model reaches optimal performance. Finally, the predictive model is evaluated using the test set to estimate its performance on new data. 
 ![Experimental Design](https://i.sstatic.net/osBuF.png)
 
 
@@ -68,6 +71,8 @@ The model was evaluated using a testing generator, resulting in the following ac
 
 ## 7. References
 1. Convolutional Neural Networks (CNNs) - Stanford University, https://cs231n.github.io/convolutional-networks/
+2.Experimental Design:
+   -https://stats.stackexchange.com/questions/410118/cross-validation-vs-train-validation-test
 3. Dataset:
    - https://www.kaggle.com/datasets/muttaqin1113/face-skin-type
    - https://github.com/Yunanouv/Skin-Care-Recommender-System/blob/main/MP-Skin%20Care%20Product%20Recommendation%20System3.csv
