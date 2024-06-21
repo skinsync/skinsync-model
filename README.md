@@ -23,9 +23,17 @@ This dataset includes information on various skincare products and their suitabi
 
 Github = https://github.com/Yunanouv/Skin-Care-Recommender-System/blob/main/MP-Skin%20Care%20Product%20Recommendation%20System3.csv
 
+
+### Data Distribution
+![Experimental Design](https://i.sstatic.net/osBuF.png)
+
+
+
 ## 2. Methods
 We employed a Convolutional Neural Network (CNN) model to classify skin types and provide skincare recommendations based on the classification results. The methodology includes data preprocessing, model training, and evaluation.
-![Methods](https://cdn.discordapp.com/attachments/1242138861715460199/1253649811291242597/Frame_15299.png?ex=66769fde&is=66754e5e&hm=ab16aa3b037ee6154200cfc32f4cd90d9ab2b61e50dea24add61b08f88ec74af&)
+![Methods](https://cdn.discordapp.com/attachments/1200427587940392991/1253651308683071489/Frame_15299.png?ex=6676a143&is=66754fc3&hm=d324614970a96964660cf406e0e293bc80438ac90712c4288d19173404e98180&)
+
+
 ## 4. Experimental Design
 ![Experimental Design](https://i.sstatic.net/osBuF.png)
 
