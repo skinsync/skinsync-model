@@ -1,4 +1,4 @@
-# skinsync_model-Skin Tyoe Classification
+# skinsync_model-Skin Type Classification
 ## Team ID: C241-PS124
 
 ### ML Team Members:
@@ -11,10 +11,10 @@ The dataset used consists of images of different skin types and facial skin prob
 
 ### Skin Type Classification
 This dataset contains images of faces with different skin types, such as:
-- Normal
-- Oily
-- Dry
-- acne
+- Normal 😊
+- Oily 💦
+- Dry 🌵
+- Acne 😓
 
 Kaggle Dataset = https://www.kaggle.com/datasets/muttaqin1113/face-skin-type
 
@@ -45,7 +45,7 @@ The model was evaluated using a testing generator, resulting in the following ac
 | Test Accuracy| 0.9034  |
 
 ## 5. Requirements
-- **Python 
+- **Python**
 - **Keras** 
 - **TensorFlow** 
 - **NumPy** 
